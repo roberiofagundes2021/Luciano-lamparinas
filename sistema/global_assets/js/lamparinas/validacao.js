@@ -1,0 +1,1 @@
+$("#formProduto").validate();

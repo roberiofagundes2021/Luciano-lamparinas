@@ -1,0 +1,339 @@
+@charset "UTF-8";
+/*!
+custom.css - Lamparinas
+Copyright (c) 2018 Carlos Victor
+*/
+.sidebar-user-material .sidebar-user-material-body{background: url(../../../global_assets/images/backgrounds/boxed_bg_retina.png) center center no-repeat;background-size: cover;}
+/*.sidebar-user-material .sidebar-user-material-body{background: url(../../../global_assets/images/backgrounds/user_bg3.jpg) center center no-repeat;background-size: cover;}*/
+
+.form-control-border {
+	display: block;
+    width: 100%;
+    padding: .5rem;
+    font-size: .8125rem;
+    line-height: 1.5385;
+    color: #333;
+    background-color: transparent;
+    background-clip: padding-box;
+    border: 1px solid #ddd;
+    border-radius: 0;
+    box-shadow: 0 0 0 0 transparent;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.bg-gray-agenda{
+    background-color: #f2f2f2;
+    color: black !important;
+}
+
+.form-control-border-off {
+	display: block;
+    width: 100%;
+    padding: .5rem;
+    font-size: .8125rem;
+    line-height: 1.5385;
+    color: #333;
+    background-color: #FFFACD;
+    background-clip: padding-box;
+    border: 1px solid #ddd;
+    border-radius: 0;
+    box-shadow: 0 0 0 0 transparent;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.subcat{
+    background-color: #eee!important;
+    height: 20px;
+    color: #000;
+    border-radius:3rem;
+    padding: 7px;
+    box-sizing: content-box;
+    transition: background .3s ease-in-out;
+}
+
+.subcat:hover{
+    background-color: #03a9f4!important;
+}
+
+/* Coluna Situação */
+.badge-flat{
+    width: 100%;
+}
+
+.btn-produtos{
+    font-size: 0.65rem;
+    padding: 8px 8px;
+    width: 100%;
+}
+
+/* Todos os botões em destaque do caso de uso (botão principal) */
+.btn-principal{
+    background-color: #F8D11F;
+    color: #333;
+}
+
+.btn-principal:hover,
+.btn-principal:focus,
+.btn-principal.focus,
+.btn-principal:active,
+.btn-principal.active,
+.open .dropdown-toggle.btn-principal {
+    color: #333;
+    background-color: #f8c91f;
+    border-color: #F8D11F;
+}
+
+.bg-slate{
+    background-color: #466d96;
+}
+
+/* Barra de Topo do Sistema */
+.navbar-dark{
+    background-color: #375b82;
+}
+
+/* CSS Modal */
+.custon-modal{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1050;
+    display: none;
+    overflow: hidden;
+    outline: 0;
+    background-color: rgba(0,0,0,.7);
+}
+
+.custon-modal-show{
+    display: block;
+}
+
+.custon-modal-container{
+    width: 60%;
+    margin: 3% auto;
+}
+
+.custon-modal-content{
+    display: flex;
+    flex-direction: column;
+    background-color:  #FFF;
+    opacity: 1!important;
+    z-index: 9051;
+}
+
+.custon-modal-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f2f2;
+}
+
+.custon-modal-title p{
+    margin:  20px;
+}
+
+.custon-modal-lista{
+    max-height: 400px;
+    overflow-y: scroll;
+    padding: 4px;
+}
+
+.custon-modal-produto{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-shadow: 0.5px 1px 2px rgb(163, 162, 162);
+    padding: 0px 5px 0px 5px;
+    margin: 5px;
+}
+
+.custon-modal-lista p{
+    margin: 0;
+}
+
+.custon-modal-lista p:first-of-type{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+@media (max-width: 1300px){
+    .btn-produtos{
+        font-size: 0.65rem;
+    }
+}
+
+@media (max-width: 1000px){
+    .btn-produtos{
+        font-size: 0.55rem;
+    }
+}
+
+@media (max-width: 1424px){
+    .custon-modal-container{
+        width: 64%;
+    }
+}
+
+@media (max-width: 1372px){
+    .custon-modal-container{
+        width: 68%;
+    }
+}
+
+@media (max-width: 1262px){
+    .custon-modal-container{
+        width: 85%;
+    }
+}
+
+@media (max-width: 767px){
+    .custon-modal-container{
+        width: 85%;
+    }
+}
+
+@media (max-width: 555px){
+    .custon-modal-container{
+        width: 90%;
+    }
+}
+
+@media (max-width: 575px){
+    .custon-modal-container{
+        width: 90%;
+    }
+
+    .modal-controles{
+        justify-content: center;
+    }
+
+    .modal-controles div{
+        justify-content: end!important;
+    }
+
+    .custon-modal-produTitle{
+        align-items: center;
+        text-align: center!important;
+    }
+
+    /* Utilizado no fluxoProduto.php e fluxoServico.php */
+    .fluxoContrato{
+        min-width: none;
+    }
+
+    /* Utilizado no fluxoProduto.php e fluxoServico.php */
+    .fluxoProcesso{
+        max-width: none;
+    }
+}
+
+@media (max-width: 555px){
+    .custon-modal-container{
+        width: 90%;
+    }
+
+    /* Não mostra o banner do login na versão mobile */
+    .login-banner{
+        display: none !important;
+    }
+}
+
+@media (max-width: 400px){
+    .custon-modal-container{
+        width: 90%;
+    }
+
+    .modal-controles i{
+        font-size: 10px;
+    }
+
+    .modal-controles button{
+        padding: 7px;
+    }
+
+    .custon-modal-title{
+        flex-direction: column;
+    }
+}
+
+@media (max-height: 740px){
+    .custon-modal-lista{
+        max-height: 430px;
+    }
+}
+
+@media (max-height: 720px){
+
+    .custon-modal{
+        overflow: scroll;
+    }
+
+    .custon-modal-lista{
+        max-height: 380px;
+    }
+}
+
+@media (max-height: 570px){
+    .custon-modal-lista{
+        max-height: 310px;
+    }
+}
+
+@media (max-height: 430px){
+
+    .custon-modal{
+        overflow: scroll;
+    }
+
+    .custon-modal-container{
+        margin: 1% auto;
+    }
+
+    .custon-modal-lista{
+        max-height: 170px;
+    }
+
+    .textarea-modal{
+        height: 40px;
+    }
+}
+
+ /* Usado no Fluxo de Caixa */ 
+.carousel .carousel-control-prev,
+.carousel .carousel-control-next {
+    width: 20px;
+    height: 20px;
+    background-color: none;
+    top: calc(-20% -25%);
+    opacity: .8;
+    font-size: 30px;
+}
+
+.carousel .carousel-control-prev {
+    left: unset;
+    left: 30px;
+}
+
+.carousel .carousel-control-next {
+    right: unset;
+    right: 50px;
+}
+
+/* Isso corrige um bug do template nas ações das grids (não mostra a barra de rolagem) */
+.datatable-scroll-wrap{
+    overflow-x: unset;
+}
+ 
+/* Caption das Tabelas */
+caption {
+    color: #ccc;
+    text-align: right;
+    caption-side: bottom;
+    font-size: xx-small;
+    padding-right: 5px;
+    border-top: 1px solid #eee;
+    padding-bottom: 5px;
+}

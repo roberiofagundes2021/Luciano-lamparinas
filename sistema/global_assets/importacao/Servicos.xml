@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Carlos Victor Rocha dos Anjos</Author>
+  <LastAuthor>Carlos Victor Rocha dos Anjos</LastAuthor>
+  <Created>2020-03-05T19:33:41Z</Created>
+  <Version>15.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>12435</WindowHeight>
+  <WindowWidth>28800</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Produtos">
+  <Table ss:ExpandedColumnCount="2" ss:ExpandedRowCount="4" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Row>
+    <Cell><Data ss:Type="String">Nome do Serviço</Data></Cell>
+    <Cell><Data ss:Type="String">Detalhamento do Serviço</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Manutenção de Ar Condicionado</Data></Cell>
+    <Cell><Data ss:Type="String">O botox para uso estético é indicado para suavizar as rugas e linhas de expressão do rosto. Entre as linhas tratadas, estão: Rugas da testa. Vinco na glabela (espaço entre as sobrancelhas)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Manutenção Elétrica</Data></Cell>
+    <Cell><Data ss:Type="String">A Criolipólise é uma técnica para tratamento de gordura localizada, que usa o frio para provocar a morte das células de gordura da região tratada. Este é um tratamento muito seguro, eficaz, com preço atrativo e ótimos resultados, inclusive comprovados cientificamente.
+
+A Carbox é uma terapia baseada na aplicação de gás carbônico no tecido adiposo (tecido das gorduras), com o objetivo de promover uma acidez que agita as moléculas de gordura e oxigena o tecido, além de auxiliar no retorno linfático e venoso do tecido.
+
+Aplicação de Enzimas é feita para auxiliar a absorção de gordura. O procedimento é simples e os resultados começam a aparecer a partir da 1ª sessão.
+
+Pró-Detox é uma massagem que combina movimentos específicos com cremes especialmente formulados para reduzir medidas e melhorar visivelmente o contorno do seu corpo, energizando o metabolismo em geral.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Manutenção Hidráulica</Data></Cell>
+    <Cell><Data ss:Type="String">O Laser de CO2 Fracionado é um tratamento inovador e eficaz no qual ondas de laser de CO2 são emitidas sobre a pele devidamente anestesiada. A pele se contrai, pois o colágeno tem essa reação a temperaturas acima de 60°C. O laser provoca uma grande produção de colágeno, que ocorre nos próximos seis meses, já que atingirá camadas bem profundas da pele. Com a restituição do colágeno, as rugas são tratadas e a pele volta a ter um aspecto jovial.</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Selected/>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
